@@ -1,0 +1,58 @@
+/*nav*/
+
+.my-nav-color {
+	background-color: #2d4974e3 !important;
+}
+
+/*hero-part*/
+.slides-navigation {
+	z-index: 6;
+	position: absolute;
+	top: 45%;
+}
+
+.slides-navigation a.next {
+	background-image: url(../img/images/next.png);
+	position: absolute;
+	top: 1em;
+	left: 80em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 2em;
+	height: 2em;
+}
+
+.slides-navigation a.prev {
+	background-image: url(../img/images/prev.png);
+	position: absolute;
+	top: 1em;
+	left: 2em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 2em;
+	height: 2em;
+}
+
+/*hero-part*/
+
+.hero-text {
+	position: absolute;
+	z-index: 10;
+	color: #fff;
+	top: 35%;
+	right: 30%;
+	left: 30%;
+}
+
+.heading {
+	font-weight: bold;
+	font-size: 3em;
+	text-shadow: 0 0.02em 0.02em rgb(239, 231, 231);
+}
+
+.hero-details-text {
+	font-style: italic;
+	font-size: 1em;
+	color: #fff;
+	text-shadow: 0 0.05em 0.2em rgb(0, 0, 0);
+}

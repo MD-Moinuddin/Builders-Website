@@ -1,0 +1,21 @@
+.my-btn-link {
+	font-size: .8em;
+	color: #fff !important;
+	
+	&:hover {
+		text-decoration: none !important;
+	}
+
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+.accordion-img {
+	height: 30em;
+}
+
+.my-card-header {
+	padding: 0 0;
+	background-color: rgb(68, 93, 131);
+}

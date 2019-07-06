@@ -1,0 +1,86 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+section {
+	padding: 2em 0;
+}
+
+.no-padding {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+.diffrent-row {
+	margin-right: 0;
+}
+
+.indigo {
+    background-color: #445d83 !important;
+}
+
+.section-header {
+	text-align: center;
+	padding: 0 0 2em 0;
+
+	.heading-text {
+		font-size: 2em;
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+
+	.details-text {
+		font-size: 1em;
+		color: #5d646b;
+		margin-bottom: 0;
+		font-style: italic;
+		font-weight: 500;
+	}
+}
+
+/*overlay*/
+.overlay {
+	width: 95%;
+	height: 0;
+	background-color: #ccc;
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+	overflow: hidden;
+	transition: .6s ease;
+	opacity: .8;
+}
+
+.overlay-text {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	text-align: center;
+	transform: translate(50%, -25%);
+}
+
+.overlay-container {
+	&:hover {
+		.overlay {
+			height: 22.5em;
+		}
+	}
+}
+
+.btn-dark {
+	background-color: #445d83 !important;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+#back-to-top {
+    padding: .5em 1em;
+    font-size: 0.8em;
+}
+

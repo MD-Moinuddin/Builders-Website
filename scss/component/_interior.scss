@@ -1,0 +1,25 @@
+.overlay-interior {
+	width: 92.5%;
+	bottom: 1em;
+	
+	.overlay-icon {
+		top: 40%;
+	}
+}
+
+/*.overlay-text {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	text-align: center;
+	transform: translate(50%, -25%);
+}*/
+
+.overlay-container-interior {
+	padding: 1em 0;
+	&:hover {
+		.overlay-interior {
+			height: 14.6em;
+		}
+	}
+}
